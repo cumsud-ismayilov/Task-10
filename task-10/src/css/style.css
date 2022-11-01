@@ -1,0 +1,82 @@
+
+img  {
+    object-fit: cover;
+    object-position: center;
+}
+ 
+ #img .img1 {
+     width: 50px;
+     height: 50px;
+     border-radius: 20px;
+ }
+
+ #img .img2{
+    width: 100px;
+    height: 100px;
+    border-radius: 40px 0px 40px 0px;
+ }
+ #img .img3{
+    width: 150px;
+    height: 150px;
+    border-radius: 0px 60px 0px 60px;
+    
+ }
+ #img .img4{
+    width: 200px;
+    height: 200px; 
+    border-radius: 30px 50px;
+
+ }
+ #img .img5{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+ }
+
+section .list_1  :nth-child(4n-3) {
+    color: yellow ;
+
+ 
+}  
+section .list_1  :nth-child(4n-2) {
+    color:greenyellow;
+
+ 
+}  
+
+  
+section .list_1  :nth-child(4n-1) {
+    color:green;
+
+ 
+}  
+
+ 
+section .list_1  :nth-child(4n) {
+    color:pink;
+
+ 
+}  
+section .list_1{
+    list-style: none;
+    background-image: url(https://images.unsplash.com/photo-1666034563190-5386e62e44cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc5fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    object-position: center;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+table{
+       
+    border-collapse: collapse;
+}
+tr,th,td{  
+border-bottom: 1px solid black;
+}
